@@ -3,5 +3,5 @@ Primeiros códigos fontes, em linguagem C, de exercícios bem básicos e muito f
 Os arquivos neste repositório são:<br>
 <b>ex01_01.c</b> - calcular área do quadrado<br>
 <b>ex01_02.c</b> - calcular área do retângulo<br>
-<b>ex01_03.c</b> - calcular área do círculo
-<b>ex01_04.c</b> - verifica dentre dois números qual é o maior
+<b>ex01_03.c</b> - calcular área do círculo<br>
+<b>ex01_04.c</b> - verifica dentre dois números qual é o maior<br>
