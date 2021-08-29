@@ -16,4 +16,4 @@ Os exercícios a seguir foram extraídos das listas dos professores Emílio Fran
 <b>ex01_08.c</b> - calcula a função f(x) = x^(1/2) + (x/2) + x^x. Algumas funções como srqt e pow foram utilizados para o exercício. No GCC, eu tive de adicionar gcc ex01_08.c -o ex01_08 -lm para compilar o arquivo.
 <p>
 <b>ex01_09.c</b> - Faça um programa que leia dois valores inteiros nas variáveis x e y e
-troque o conteúdo as variáveis. Refaça este problema sem o uso de outras variáveis que não x e y. Este exercício é um dos mais tradicionais que se encontram na programação.
+troque o conteúdo as variáveis. Refaça este problema sem o uso de outras variáveis que não x e y. Este exercício é um dos mais tradicionais que se encontram na programação. Mas eu ainda não consegui solucionar a segunda parte.
