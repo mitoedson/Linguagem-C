@@ -1,7 +1,10 @@
-/* Exercício básico que solicita ao usuário inserir dois valores numéricos inteiros, e o programa verifica a diferença entre eles.
-
+/*
+Arquivo: ex01_05.c
+Codificado em 28/08/2021, por Edson Mito.
 SO: Linux Mint
 Compilador GCC
+
+Descrição: Exercício básico que solicita ao usuário inserir dois valores numéricos inteiros, e o programa verifica a diferença entre eles.
 */
 
 #include <stdio.h> // biblioteca  de entrada e saida de dados
