@@ -1,4 +1,5 @@
 /*
+Arquivo: ex01_02.c
 Codificado em 28/08/2021, por Edson Mito.
 SO: Linux Mint
 Compilador GCC
