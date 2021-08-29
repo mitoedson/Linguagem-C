@@ -1,8 +1,10 @@
-/* Exercício básico para cálculo de área do quadrado, ao qual o usuários irá introduzir um valor
-(comprimento do lado do quadrado), e receberá um resultado (área do quadrado). 
-
+/* 
+Codificado em 28/08/2021, por Edson Mito.
 SO: Linux Mint
 Compilador GCC
+
+Descrição: Exercício básico para cálculo de área do quadrado, ao qual o usuários irá introduzir um valor
+(comprimento do lado do quadrado), e receberá um resultado (área do quadrado). 
 */
 
 Escrito no ambiente Linux Mint, compilador GCC.
