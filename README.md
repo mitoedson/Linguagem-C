@@ -12,4 +12,5 @@ A partir daqui os exercícios tornam-se um pouco mais elaborados:<br>
 <p>
 <b>ex01_07.c</b> - verifica a média entre quatro notas digitadas. Neste exercício, eu fui um pouco além da proposta do exercício e adicionei um intervalo entre 0 a 10. Somente segue para a próxima nota se o que for digitado estiver nesse intervalo. Se não, ele solicita novamente que digite um número que esteja no intervalo.<br>
 <p>
+Os exercícios a seguir foram extraídos das listas dos professores Emílio Francesquini e Carla Negri Lintzmayer, da UFABC:<br>
 <b>ex01_08.c</b> - calcula a função f(x) = x^(1/2) + (x/2) + x^x. Algumas funções como srqt e pow foram utilizados para o exercício. No GCC, eu tive de adicionar gcc ex01_08.c -o ex01_08 -lm para compilar o arquivo.
