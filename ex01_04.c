@@ -1,7 +1,10 @@
-/* Exercício básico que solicita ao usuário inserir dois valores numéricos, e o programa verifica qual dos valores é maior.
-
+/*
+Arquivo: ex01_04.c
+Codificado em 28/08/2021, por Edson Mito.
 SO: Linux Mint
 Compilador GCC
+
+Descrição: Exercício básico que solicita ao usuário inserir dois valores numéricos, e o programa verifica qual dos valores é maior.
 */
 
 #include <stdio.h> // biblioteca  de entrada e saida de dados
