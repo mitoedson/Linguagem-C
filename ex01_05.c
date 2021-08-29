@@ -1,15 +1,15 @@
-/* ExercÌcio b·sico que solicita ao usu·rio inserir dois valores numÈricos inteiros, e o programa verifica a diferenÁa entre eles.
+/* Exerc√≠cio b√°sico que solicita ao usu√°rio inserir dois valores num√©ricos inteiros, e o programa verifica a diferen√ßa entre eles.
 
 SO: Linux Mint
 Compilador GCC
 */
 
 #include <stdio.h> // biblioteca  de entrada e saida de dados
-#include <math.h> // biblioteca matem·tica
+#include <math.h> // biblioteca matem√°tica
 
-int main() // FunÁ„o principal
+int main() // Fun√ß√£o principal
 {
-    // InÌcio do programa
+    // In√≠cio do programa
     int v1=0,v2=0;
     printf("\n\t\t=====================  Aula 01 - Ex.05  =====================");
     printf("\n\t\t=== Verifica qual a diferenca entre dois valores inteiros ===\n\n");
