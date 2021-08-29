@@ -1,15 +1,15 @@
-/* ExercÌcio b·sico que solicita ao usu·rio inserir trÍs valores numÈricos, e o programa verifica qual dos valores È maior.
+/* Exerc√≠cio b√°sico que solicita ao usu√°rio inserir tr√™s valores num√©ricos, e o programa verifica qual dos valores √© maior.
 
 SO: Linux Mint
 Compilador GCC
 */
 
 #include <stdio.h> // biblioteca  de entrada e saida de dados
-#include <math.h> // biblioteca matem·tica
+#include <math.h> // biblioteca matem√°tica
 
-int main() // FunÁ„o principal
+int main() // Fun√ß√£o principal
 {
-    // InÌcio do programa
+    // In√≠cio do programa
     float v1=0,v2=0,v3=0,maior=0;
     int repete=0;
     printf("\n\t\t==========  Aula 01 - Ex.06  ===========");
