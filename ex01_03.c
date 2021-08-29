@@ -1,9 +1,11 @@
-/* Exercício básico para cálculo de área do cícrulo, ao qual o usuário irá introduzir um valor: o comprimento do raio do círculo, e receberá um resultado (área do círculo).
-
-Considere raio = 3.14 
-
+/*
+Arquivo: ex01_03.c
+Codificado em 28/08/2021, por Edson Mito.
 SO: Linux Mint
 Compilador GCC
+
+Descrição: Exercício básico para cálculo de área do cícrulo, ao qual o usuário irá introduzir um valor: o comprimento do raio do círculo, e receberá um resultado (área do círculo).
+Considere raio = 3.14 
 */
 
 #include <stdio.h> // biblioteca  de entrada e saida de dados
