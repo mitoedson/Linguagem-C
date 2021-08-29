@@ -16,7 +16,7 @@ int main() // Função principal
 {
     // Início do programa
     int x=0,y=0,z=0;
-    printf("\n\t\t==========  Aula 01 - Ex.08  =========");
+    printf("\n\t\t==========  Aula 01 - Ex.09  =========");
     printf("\n\t\t== Trocando o conteudo de variaveis ==\n\n");
 
     printf("\nPor favor, digite:");
