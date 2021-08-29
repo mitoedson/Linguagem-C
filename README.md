@@ -1,4 +1,4 @@
-Primeiros códigos fontes, em linguagem C, de exercícios bem básicos e muito frequentes em cursos de programação, para um estímulo inicial de aprendizagem. 
+Primeiros códigos fontes, em linguagem C. Os primeiros exercícios são bem básicos para estimular o aprendizado.
 <p>
 Os arquivos neste repositório são:<br>
 <b>ex01_01.c</b> - calcular área do quadrado<br>
