@@ -1,6 +1,6 @@
 Primeiros códigos fontes, em linguagem C. Os primeiros exercícios são bem básicos para estimular o aprendizado. Os códigos foram escritos em ambiente Linux, compilados em GCC, e irão notar que devido ao ambiente do Linux, as palavras não possuem acento pois ao acentuá-las, ela modificava com outro caracter bem diferente.
 <p>
-Os arquivos neste repositório são:<br>
+Os arquivos inicialmente listados abaixo, são bem básicos:<br>
 <b>ex01_01.c</b> - calcular área do quadrado<br>
 <b>ex01_02.c</b> - calcular área do retângulo<br>
 <b>ex01_03.c</b> - calcular área do círculo e seu perímetro<br>
