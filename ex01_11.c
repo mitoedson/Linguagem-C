@@ -4,7 +4,7 @@ Codificado em 29/08/2021, por Edson Mito.
 SO: Linux Mint
 Compilador GCC
 
-Descrição: Cálculo de área do triangulo através de sua base a altura. 
+Descrição: Cálculo de área do triângulo através da fórmula de Heron. 
 */
 
 #include <stdio.h> // biblioteca  de entrada e saida de dados
