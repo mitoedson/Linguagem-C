@@ -1,5 +1,5 @@
 Primeiros códigos fontes, em linguagem C, escritos em ambiente Linux e compilados em GCC. Notarão nos códigos que as palavras não foram acentuadas, pois no ambiente Linux, os acentos são trocados por outros caracteres. Assim, eu optei deixá-los sem acentuação. 
-Nesta primeira etapa, alguns poucos recursos serão utilizados para solução dos problemas, com o intuito treinar o raciocínio lógico para solucionar os problemas. Funções, laços e outros recursos serão vistos nos próximos exercícios, em outra seção.
+Nesta primeira etapa, alguns poucos recursos serão utilizados para solução dos problemas, com o intuito treinar o raciocínio lógico. Funções, laços e outros recursos serão vistos nos próximos exercícios, em outra seção.
 <p>
 Os arquivos inicialmente listados abaixo, são exercícios simples e muito comuns:<br>
 <b>ex01_01.c</b> - calcular área do quadrado<br>
