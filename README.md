@@ -31,7 +31,7 @@ troque o conteúdo as variáveis. Refaça este problema sem o uso de outras vari
 <p>
 <b>ex01_16.c</b> - o programa converte temperaturas nas escalas Celsius, Fahrenheit e Kelvin, a partir da escolha do usuário. O exercício original só solicitou as escalas Celsius e Fahrenheit. Houve uma modificação no código quando notei um problema ao inserir um caracter, e ele adicionava um espaço. Fou sugerido utilizar scanf(" %c", (com um espaço antes de %) para evitar o problema. Não verifiquei se é aceitável no ambiente Windows. Adicionei um limite mínimo de temperatura aceitável, já que não há valores abaixo de 0 K.
 <p>
-<b>ex01_17.c</b> - o programa verifica se o contribuínte está apto a aposentar. Algumas regras foram atribuidas ao programa: 
+<b>ex01_17.c</b> - o programa verifica se o contribuínte está apto a aposentar. Algumas regras foram atribuidas ao programa: <br>
 - sexo masculino, idade com pelo menos 65 anos, e contribuição de pelo menos 10 anos;<br>
 - sexo masculino, idade com pelo menos 63 anos, e contribuição de pelo menos 15 anos;<br>
 - sexo feminino, idade com pelo menos 63 anos, e contribuição de pelo menos 10 anos;<br>
