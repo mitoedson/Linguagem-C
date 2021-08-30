@@ -1,4 +1,4 @@
-Primeiros códigos fontes, em linguagem C. Os primeiros exercícios são bem básicos para estimular o aprendizado.
+Primeiros códigos fontes, em linguagem C. Os primeiros exercícios são bem básicos para estimular o aprendizado. Os códigos foram escritos em ambiente Linux, compilados em GCC, e irão notar que devido ao ambiente, as palavras não possuem acento.
 <p>
 Os arquivos neste repositório são:<br>
 <b>ex01_01.c</b> - calcular área do quadrado<br>
