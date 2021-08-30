@@ -1,4 +1,4 @@
-Primeiros códigos fontes, em linguagem C. Os primeiros exercícios são bem básicos para estimular o aprendizado. Os códigos foram escritos em ambiente Linux, compilados em GCC, e irão notar que devido ao ambiente do Linux, as palavras não possuem acento pois ao acentuá-las, ela modificava com outro caracter bem diferente.
+Primeiros códigos fontes, em linguagem C, escritos em ambiente Linux e compilados em GCC. Notarão nos códigos que as palavras não foram acentuadas, pois no ambiente Linux, os acentos são trocados por outros caracteres. Assim, eu optei deixá-los sem acentuação.
 <p>
 Os arquivos inicialmente listados abaixo, são bem básicos:<br>
 <b>ex01_01.c</b> - calcular área do quadrado<br>
