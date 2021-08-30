@@ -33,8 +33,20 @@ int main()
 
     printf("\n\nPor favor, digite:");
     printf("\n==================\n");
-    printf("\nO valor da temperatura: ");
-    scanf("%f",&t);
+
+    do
+    {
+        printf("\nO valor da temperatura: ");
+        scanf("%f",&t);
+        if(toupper(escala)=='C' && t < -273.15)
+            printf("\nTEMPERATURA EM CELSIUS INVALIDA!!!\n");
+        if(toupper(escala)=='K' && t < 0)
+            printf("\nTEMPERATURA EM KELVIN INVALIDA!!!\n");
+        if(toupper(escala)=='F' && t < -459.67)
+            printf("\nTEMPERATURA EM FAHRENHEIT INVALIDA!!!\n");
+     } while((toupper(escala)=='C' && t < -273.15) || (toupper(escala)=='K' && t < 0) || (toupper(escala)=='F' && t < -459.67));
+
+
     if(toupper(escala)=='C')
     {
         printf("\nCelsius: %.2f C", t);
@@ -44,8 +56,8 @@ int main()
     else if(toupper(escala)=='F')
     {
         printf("\nFahrenheit: %.2f F", t);
-        printf("\nCelsius: %.2f C", (t-32)/1.8);
-        printf("\nKelvin: %.2f K", (t-32)/1.8+273.15);
+        printf("\nCelsius: %.2f C", (t-32)*5/9);
+        printf("\nKelvin: %.2f K", (t-32)*5/9+273.15);
     }
     else
     {
