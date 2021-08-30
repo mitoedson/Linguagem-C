@@ -1,4 +1,4 @@
-Primeiros códigos fontes, em linguagem C. Os primeiros exercícios são bem básicos para estimular o aprendizado. Os códigos foram escritos em ambiente Linux, compilados em GCC, e irão notar que devido ao ambiente, as palavras não possuem acento.
+Primeiros códigos fontes, em linguagem C. Os primeiros exercícios são bem básicos para estimular o aprendizado. Os códigos foram escritos em ambiente Linux, compilados em GCC, e irão notar que devido ao ambiente do Linux, as palavras não possuem acento pois ao acentuá-las, ela modificava com outro caracter bem diferente.
 <p>
 Os arquivos neste repositório são:<br>
 <b>ex01_01.c</b> - calcular área do quadrado<br>
@@ -21,4 +21,4 @@ troque o conteúdo as variáveis. Refaça este problema sem o uso de outras vari
 <p>
 <b>ex01_11.c</b> - calcular a área de um triângulo a partir do comprimento de seus lados, utilizando a fórmula de Heron. Outra solicitação do exercício, é comparar e dizer o porquê, em alguns casos, o resultado para o ex01_10.c dá uma leve diferença com o ex01_11.c
 <p>
-<b>ex01_12.c</b> - o programa foi originalmente desenvolvido para que o aluno encontrasse algum erro. Modifiquei parte do código para queele pudesse funcionar de acordo com seu propósito, que é classificar um número se é par ou ímpar, e se a partir do número 100, determinar sua posição.
+<b>ex01_12.c</b> - o programa foi originalmente desenvolvido para que o aluno encontrasse algum erro. Modifiquei parte do código para que ele pudesse funcionar de acordo com seu propósito, que é classificar um número se é par ou ímpar, e se a partir do número 100, determinar sua posição.
