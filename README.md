@@ -28,3 +28,5 @@ troque o conteúdo as variáveis. Refaça este problema sem o uso de outras vari
 <b>ex01_14.c</b> - o programa classifica triângulos a partir de dados digitados pelo usuário. Ele também verifica se os valores são aceitáveis para um triãngulo, e impede que o programa prossiga até que o usuário entre com os valores corretos.
 <p>
 <b>ex01_15.c</b> - o programa checará, a partir dos valores das coordenadas x e y, qual o quadrante correspondente. O programa faz a detecção se as coordenadas indicam se ela está posicionada em algum eixo.
+<p>
+<b>ex01_16.c</b> - o programa converte escalas Celsius, Fahrenheit e Kelvin, a partir da escolha do usuário. O exercício original só solicitou as escalas Celsius e Fahrenheit. Houve uma modificação no código quando notei um problema ao inserir um caracter, e ele adicionava um espaço. Fou sugerido utilizar scanf(" %c", (com um espaço antes de %) para evitar o problema. Não verifiquei se é aceitável no ambiente Windows.
