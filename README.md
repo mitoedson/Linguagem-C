@@ -29,4 +29,4 @@ troque o conteúdo as variáveis. Refaça este problema sem o uso de outras vari
 <p>
 <b>ex01_15.c</b> - o programa checará, a partir dos valores das coordenadas x e y, qual o quadrante correspondente. O programa faz a detecção se as coordenadas indicam se ela está posicionada em algum eixo.
 <p>
-<b>ex01_16.c</b> - o programa converte escalas Celsius, Fahrenheit e Kelvin, a partir da escolha do usuário. O exercício original só solicitou as escalas Celsius e Fahrenheit. Houve uma modificação no código quando notei um problema ao inserir um caracter, e ele adicionava um espaço. Fou sugerido utilizar scanf(" %c", (com um espaço antes de %) para evitar o problema. Não verifiquei se é aceitável no ambiente Windows.
+<b>ex01_16.c</b> - o programa converte temperaturas nas escalas Celsius, Fahrenheit e Kelvin, a partir da escolha do usuário. O exercício original só solicitou as escalas Celsius e Fahrenheit. Houve uma modificação no código quando notei um problema ao inserir um caracter, e ele adicionava um espaço. Fou sugerido utilizar scanf(" %c", (com um espaço antes de %) para evitar o problema. Não verifiquei se é aceitável no ambiente Windows.
