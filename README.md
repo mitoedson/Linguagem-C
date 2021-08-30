@@ -24,3 +24,5 @@ troque o conteúdo as variáveis. Refaça este problema sem o uso de outras vari
 <b>ex01_12.c</b> - o programa foi originalmente desenvolvido para que o aluno encontrasse algum erro. Modifiquei parte do código para que ele pudesse funcionar de acordo com seu propósito, que é classificar um número se é par ou ímpar, e se a partir do número 100, determinar sua posição.
 <p>
 <b>ex01_13.c</b> - o programa verifica se um ano inserido é um ano bissexto ou não. Utilizei uma regra que se um ano é divisível por 4, e não divisível por 100, é um ano bissexto. Se não, pergunta-se se é divisivel por 400. Se sim, é um ano bissexto, se não, não é bissexto.
+<p>
+<b>ex01_14.c</b> - o programa classifica triângulos a partir de dados digitados pelo usuário. Ele também verifica se os valores são aceitáveis para um triãngulo, e impede que o programa prossiga até que o usuário entre com os valores corretos.
