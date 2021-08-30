@@ -19,6 +19,6 @@ Os exercícios a seguir foram extraídos das listas dos professores Emílio Fran
 <b>ex01_09.c</b> - Faça um programa que leia dois valores inteiros nas variáveis x e y e
 troque o conteúdo as variáveis. Refaça este problema sem o uso de outras variáveis que não x e y. Este exercício é um dos mais tradicionais que se encontram na programação. Mas eu ainda não consegui solucionar a segunda parte.
 <p>
-<b>ex01_11.c</b> - calcular a área de um triângulo a partir do comprimento de seus lados, utilizando a fórmula de Heron.
+<b>ex01_11.c</b> - calcular a área de um triângulo a partir do comprimento de seus lados, utilizando a fórmula de Heron. Outra solicitação do exercício, é comparar e dizer o porquê, em alguns casos, o resultado para o ex01_10.c dá uma leve diferença com o ex01_11.c
 <p>
 <b>ex01_12.c</b> - o programa foi originalmente desenvolvido para que o aluno encontrasse algum erro. Modifiquei parte do código para queele pudesse funcionar de acordo com seu propósito, que é classificar um número se é par ou ímpar, e se a partir do número 100, determinar sua posição.
