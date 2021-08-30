@@ -26,3 +26,5 @@ troque o conteúdo as variáveis. Refaça este problema sem o uso de outras vari
 <b>ex01_13.c</b> - o programa verifica se um ano inserido é um ano bissexto ou não. Utilizei uma regra que se um ano é divisível por 4, e não divisível por 100, é um ano bissexto. Se não, pergunta-se se é divisivel por 400. Se sim, é um ano bissexto, se não, não é bissexto.
 <p>
 <b>ex01_14.c</b> - o programa classifica triângulos a partir de dados digitados pelo usuário. Ele também verifica se os valores são aceitáveis para um triãngulo, e impede que o programa prossiga até que o usuário entre com os valores corretos.
+<p>
+<b>ex01_15.c</b> - o programa checará, a partir dos valores das coordenadas x e y, qual o quadrante correspondente. O programa faz a detecção se as coordenadas indicam se ela está posicionada em algum eixo.
