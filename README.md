@@ -1,4 +1,5 @@
-Primeiros códigos fontes, em linguagem C, escritos em ambiente Linux e compilados em GCC. Notarão nos códigos que as palavras não foram acentuadas, pois no ambiente Linux, os acentos são trocados por outros caracteres. Assim, eu optei deixá-los sem acentuação.
+Primeiros códigos fontes, em linguagem C, escritos em ambiente Linux e compilados em GCC. Notarão nos códigos que as palavras não foram acentuadas, pois no ambiente Linux, os acentos são trocados por outros caracteres. Assim, eu optei deixá-los sem acentuação. 
+Nesta primeira etapa, alguns poucos recursos serão utilizados para solução dos problemas, com o intuito treinar o raciocínio lógico para solucionar os problemas. Funções, laços e outros recursos serão vistos nos próximos exercícios, em outra seção.
 <p>
 Os arquivos inicialmente listados abaixo, são exercícios simples e muito comuns:<br>
 <b>ex01_01.c</b> - calcular área do quadrado<br>
@@ -29,7 +30,7 @@ troque o conteúdo as variáveis. Refaça este problema sem o uso de outras vari
 <p>
 <b>ex01_15.c</b> - o programa checará, a partir dos valores das coordenadas x e y, qual o quadrante correspondente. O programa faz a detecção se as coordenadas indicam se ela está posicionada em algum eixo.
 <p>
-<b>ex01_16.c</b> - o programa converte temperaturas nas escalas Celsius, Fahrenheit e Kelvin, a partir da escolha do usuário. O exercício original só solicitou as escalas Celsius e Fahrenheit. Houve uma modificação no código quando notei um problema ao inserir um caracter, e ele adicionava um espaço. Fou sugerido utilizar scanf(" %c", (com um espaço antes de %) para evitar o problema. Não verifiquei se é aceitável no ambiente Windows. Adicionei um limite mínimo de temperatura aceitável, já que não há valores abaixo de 0 K.
+<b>ex01_16.c</b> - o programa converte temperaturas nas escalas Celsius, Fahrenheit e Kelvin, a partir da escolha do usuário. O exercício original só solicitou as escalas Celsius e Fahrenheit. Houve uma modificação no código quando notei um problema ao inserir um caracter, e ele adicionava um espaço. Foi sugerido utilizar scanf(" %c", (com um espaço antes de %) para evitar o problema. Não verifiquei se é aceitável no ambiente Windows. Adicionei um limite mínimo de temperatura aceitável, já que não há valores abaixo de 0 K.
 <p>
 <b>ex01_17.c</b> - o programa verifica se o contribuínte está apto a aposentar. Algumas regras foram atribuidas ao programa: <br>
 - sexo masculino, idade com pelo menos 65 anos, e contribuição de pelo menos 10 anos;<br>
