@@ -19,9 +19,8 @@ int main()
     printf("\n\t\t==== Classificacao de triangulos =====\n");
 
     printf("\nEste programa fara a classificacao do triangulo, a partir dos valores digitados dos comprimentos dos lados.");
-
-    printf("\n\nPor favor, digite:");
-    printf("\n=================\n");
+    printf("\n\nPor favor, digite os comprimentos de cada lado:");
+    printf("\n===============================================\n");
 
     do
     {
