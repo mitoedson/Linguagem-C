@@ -1,3 +1,5 @@
-Códigos fontes de cursos que eu participei, que são baseados em exercícios, e outros livros. Alguns exercícios são bem simples, outros mais elaborados, com o objetivo treinar o raciocínio e criar soluções.
+Nesta segunda etapa, já temos alguns recursos a mais, como laços e repetições, para que o programa não execute apenas uma vez, e o usuário tenha opção encerrar o programa.
+
+Os exercícios são baseados em listas da UFABC. Os primeiros exercícios são baseados nas listas dos professores Emílio Francesquini e Carla Negri Lintzmayer
 
 <b>ex02_01.c</b> - Faça um programa que imprima um menu de 4 pratos na tela e uma quinta opção para sair do programa. O programa deve imprimir o prato solicitado. O programa deve terminar quando for escolhida a quinta opção.
