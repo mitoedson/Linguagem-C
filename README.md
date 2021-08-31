@@ -37,4 +37,7 @@ troque o conteúdo as variáveis. Refaça este problema sem o uso de outras vari
 - sexo masculino, idade com pelo menos 63 anos, e contribuição de pelo menos 15 anos;<br>
 - sexo feminino, idade com pelo menos 63 anos, e contribuição de pelo menos 10 anos;<br>
 - sexo masculino, idade com pelo menos 61 anos, e contribuição de pelo menos 15 anos
-  
+<p>
+<b>ex01_18.c</b> - o programa solicita digitar duas datas, e analisa qual é a maior cronologicamente. Para elaborar este programa foram realizadas duas etapas: <br>
+- verificar se cada uma das datas estão corretas, inclusive se estão de acordo com os anos bissextos, descartar o ano zero, e aceitar anos antes de 1 DC<br>
+- elaborar um método para verificar qual das datas é maior cronologicamente
