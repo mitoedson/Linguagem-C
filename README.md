@@ -2,4 +2,7 @@ Nesta segunda etapa, já temos alguns recursos a mais, como laços e repetiçõe
 
 Os exercícios são baseados em listas da UFABC. Os primeiros exercícios são baseados nas listas dos professores Emílio Francesquini e Carla Negri Lintzmayer
 
-<b>ex02_01.c</b> - Faça um programa que imprima um menu de 4 pratos na tela e uma quinta opção para sair do programa. O programa deve imprimir o prato solicitado. O programa deve terminar quando for escolhida a quinta opção.
+<b>ex02_01.c</b><br>
+Descrição:<br>
+Faça um programa que imprima um menu de 4 pratos na tela e uma quinta opção para sair do programa. O programa deve imprimir o prato solicitado. O programa deve terminar quando for escolhida a quinta opção.<br>
+Desenvolvimento: <br>
