@@ -6,4 +6,5 @@ As etapas concluídas, ou ainda em execução são:
 https://github.com/mitoedson/Linguagem-C/tree/01.Princ%C3%ADpios-b%C3%A1sicos-em-C
 
 02. Lista 2<br>
+https://github.com/mitoedson/Linguagem-C/tree/Lista-02
 
