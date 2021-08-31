@@ -39,5 +39,5 @@ troque o conteúdo as variáveis. Refaça este problema sem o uso de outras vari
 - sexo masculino, idade com pelo menos 61 anos, e contribuição de pelo menos 15 anos
 <p>
 <b>ex01_18.c</b> - o programa solicita digitar duas datas, e analisa qual é a maior cronologicamente. Para elaborar este programa foram realizadas duas etapas: <br>
-- verificar se cada uma das datas estão corretas, inclusive se estão de acordo com os anos bissextos, descartar o ano zero, e aceitar anos antes de 1 DC<br>
-- elaborar um método para verificar qual das datas é maior cronologicamente
+- verificar se cada uma das datas estão corretas, obedecendo o limite de dias em cada mês, e se estão de acordo com os anos bissextos. Descartar o ano zero, e aceitar anos antes de 1 DC. No caso aceitar ano negativo.<br>
+- elaborar um método para verificar qual das datas é maior cronologicamente. Poderia encher de condicionais, mas por um simples cálculo aritmético, consegue-se solucionar o problema.
