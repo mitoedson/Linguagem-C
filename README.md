@@ -30,5 +30,5 @@ Faça um programa que lê um número n e que compute e imprima os valores Vj. Í
 <p><b>ex02_06.c</b><br>
 Considere o programa para determinar se uma sequência de n números digitados pelo usuário está ordenada ou não. Faça o programa usando uma variável contadora.  
 <p>Desenvolvimento:<br>
-Como proposta de exercício, eu faria com vetores para armazenar os números e ordená-los, mas como a sequências de aulas ainda não chegou ao assunto sobre matrizes e vetores, eu fiz uma versão simplificada, sem vetores, que apenas analisa se o usuário está digitando sequencialmente, e na saída ele informa se houve ordenação da sequência numérica. Eu acredito que seja essa a proposta do exercício.
+Como proposta de exercício, eu faria com vetores para armazenar os números e ordená-los, mas como a sequências de aulas ainda não chegou ao assunto sobre matrizes e vetores, eu fiz uma versão simplificada, sem vetores, que apenas analisa se o usuário está digitando sequencialmente, e na saída ele informa se houve ordenação da sequência numérica. Eu acredito que seja essa a proposta do exercício. Eu adicionei a possibilidade verificar se o usuário digitou de forma crescente, decrescente ou não ordenada.
   
