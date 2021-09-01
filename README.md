@@ -10,4 +10,4 @@ Utilizei pela primeira vez funções para evitar repetiçoes no código-fonte, e
 <p><b>ex02_02.c</b><br>
 Faça um programa que lê dois números inteiros positivos a e b. Utilizando laços, o seu programa deve calcular e imprimir o valor a^b.
 <p>Desenvolvimento:<br>
-Para esse laço, deve ser levado em consideração os números com expoente negetivo, e zero, já que estamos lidando com números inteiros. Para expoente negativo, inevitável que tive de converter para double, já que se fosse um número inteiro, o resultado será zero. Para expoente zero, o resultado será um.
+Para esse laço, deve ser levado em consideração os números com expoente negetivo, e zero, já que estamos lidando com números inteiros. Para expoente negativo, inevitável que tive de converter o resultado para double, já que se eu deixasse como int, o resultado será zero. Para expoente zero, o resultado será um.
