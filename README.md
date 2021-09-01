@@ -19,6 +19,10 @@ A soma foi produzida através de um laço FOR com valor inicial i=1, que soma o 
 
 <p><b>ex02_04.c</b><br>
 Faça um programa que lê um número n e imprima os valores entre 2 e n que são divisores de n.
-
+<p>Desenvolvimento:<br>
+A partir de números inteiros positivos a partir de 2, utilizei o recurso de laço FOR para analisar sequencialmente se a divisão oferecia condições para que seja um número divisor.  
+  
 <p><b>ex02_05.c</b><br>
 Faça um programa que lê um número n e que compute e imprima os valores Vj. Índice inicial i, índice final j, termo de somatório i. i=1 para j variando de 1 até n, um valor Vj por linha.
+<p>Desenvolvimento:<br>
+É um programa semelhante ao exercício ex02_03.c, e se diferencia apenas na exibição dos resultados.
