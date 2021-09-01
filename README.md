@@ -26,3 +26,7 @@ A partir de números inteiros positivos a partir de 2, utilizei o recurso de la�
 Faça um programa que lê um número n e que compute e imprima os valores Vj. Índice inicial i, índice final j, termo de somatório i. i=1 para j variando de 1 até n, um valor Vj por linha.
 <p>Desenvolvimento:<br>
 É um programa semelhante ao exercício ex02_03.c, e se diferencia apenas na exibição dos resultados.
+
+<p><b>ex02_05.c</b><br>
+Considere o programa para determinar se uma sequência de n números digitados pelo usuário está ordenada ou não. Faça o programa usando uma variável contadora.  
+  
