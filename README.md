@@ -16,3 +16,9 @@ Para esse laço, deve ser levado em consideração os números com expoente nege
 Faça um programa que lê um número n e que compute e imprima o valor. Índice inicial i, índice final n, termo de somatório i. i=1.
 <p>Desenvolvimento:<br>
 A soma foi produzida através de um laço FOR com valor inicial i=1, que soma o item posterior, até o valor n. Acrescido um limite mínimo n de 1.
+
+<p><b>ex02_04.c</b><br>
+Faça um programa que lê um número n e imprima os valores entre 2 e n que são divisores de n.
+
+<p><b>ex02_05.c</b><br>
+Faça um programa que lê um número n e que compute e imprima os valores Vj. Índice inicial i, índice final j, termo de somatório i. i=1 para j variando de 1 até n, um valor Vj por linha.
