@@ -11,3 +11,8 @@ Utilizei pela primeira vez funções para evitar repetiçoes no código-fonte, e
 Faça um programa que lê dois números inteiros positivos a e b. Utilizando laços, o seu programa deve calcular e imprimir o valor a^b.
 <p>Desenvolvimento:<br>
 Para esse laço, deve ser levado em consideração os números com expoente negetivo, e zero, já que estamos lidando com números inteiros. Para expoente negativo, inevitável que tive de converter o resultado para double, já que se eu deixasse como int, o compilador apresentará erro. Para expoente positivo, o procedimento com o laço FOR é o mesmo. Exceto para expoente zero, que passa por uma condicional que desviava para um único resultado, que será UM.
+
+<p><b>ex02_03.c</b><br>
+Faça um programa que lê um número n e que compute e imprima o valor. Índice inicial i, índice final n, termo de somatório i. i=1.
+<p>Desenvolvimento:<br>
+A soma foi produzida através de um laço FOR com valor inicial i=1, que soma o item posterior, até o valor n. Acrescido um limite mínimo n de 1.
