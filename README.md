@@ -32,7 +32,10 @@ Considere o programa para determinar se uma sequência de n números digitados p
 <p>Desenvolvimento:<br>
 Como proposta de exercício, eu faria com vetores para armazenar os números e ordená-los, mas como a sequências de aulas ainda não chegou ao assunto sobre matrizes e vetores, eu fiz uma versão simplificada, sem vetores, que apenas analisa se o usuário está digitando sequencialmente, e na saída ele informa se houve ordenação da sequência numérica. Eu acredito que seja essa a proposta do exercício. Eu adicionei a possibilidade verificar se o usuário digitou de forma crescente, decrescente ou não ordenada.
 
+** EXECUTANDO **
 <p><b>ex02_07.c</b><br>
 Faça um programa em C que calcule o máximo divisor comum de dois números m e n. Você deve utilizar a seguinte regra do cálculo do mdc com m ≥ n: mdc(m, n) = m se n = 0; mdc(m, n) = mdc(n, m%n) se n > 0
 
+<p><b>ex02_08.c</b><br>
+Escreva um programa que lê um número n e então imprime o menor número primo que é maior ou igual n e imprime o maior primo que é menor ou igual a n.
 
