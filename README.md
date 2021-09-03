@@ -39,4 +39,5 @@ Neste exercício eu construi um gerador de números primos, que calcula de 2 at�
   
 <p><b>ex02_08.c</b><br>
 Escreva um programa que lê um número n e então imprime o menor número primo que é maior ou igual n e imprime o maior primo que é menor ou igual a n.
-
+<p>Desenvolvimento:<br>
+Diferente do exercício anterior, eu construi um gerador de números primos, sem limites, mas que encerra quando as condições são cumpridas. Estas condições são os números primos que intervalam um número digitado, e este programa também indica se o número é também primo.
