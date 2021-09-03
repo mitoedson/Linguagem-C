@@ -46,3 +46,9 @@ Diferente do exercício anterior, eu construi um gerador de números primos, sem
 Faça um programa em C que calcule o mínimo múltiplo comum de dois números m e n.
 <p>Desenvolvimento:<br>
 Este exercício não faz parte da lista, e decidi produzi-lo para juntar as ideias dos exercícios anteriores.
+
+<p><b>ex02_10.c</b><br>
+Escreva um programa para ler n de números do tipo float e imprimir quantos deles estão nos seguintes intervalos: [0 . . . 25], [26 . . . 50], [51 . . . 75] e [76 . . . 100].
+<p>Desenvolvimento:<br>
+Este exercício utiliza alguns conhecimentos dos exercícios anteriores.
+  
