@@ -35,9 +35,14 @@ Como proposta de exercício, eu faria com vetores para armazenar os números e o
 <p><b>ex02_07.c</b><br>
 Faça um programa em C que calcule o máximo divisor comum de dois números m e n. Você deve utilizar a seguinte regra do cálculo do mdc com m ≥ n: mdc(m, n) = m se n = 0; mdc(m, n) = mdc(n, m%n) se n > 0
 <p>Desenvolvimento:<br>
-Neste exercício eu construi um gerador de números primos, que calcula de 2 até n1, e será base para cálculo do mdc entre dois números digitados.   
+Este exercício eu construi um gerador de números primos, que calcula de 2 até n1, e será base para cálculo do mdc entre dois números digitados.   
   
 <p><b>ex02_08.c</b><br>
 Escreva um programa que lê um número n e então imprime o menor número primo que é maior ou igual n e imprime o maior primo que é menor ou igual a n.
 <p>Desenvolvimento:<br>
 Diferente do exercício anterior, eu construi um gerador de números primos, sem limites, mas que encerra quando as condições são cumpridas. Estas condições são os números primos que intervalam um número digitado, e este programa também indica se o número é também primo.
+
+<p><b>ex02_09.c</b><br>
+Faça um programa em C que calcule o mínimo múltiplo comum de dois números m e n.
+<p>Desenvolvimento:<br>
+Este exercício não faz parte da lista, e decidi produzi-lo para juntar as ideias dos exercícios anteriores.
