@@ -5,6 +5,6 @@ As etapas concluídas, ou ainda em execução são:
 01. Princípios básicos em C<br>
 https://github.com/mitoedson/Linguagem-C/tree/01.Princ%C3%ADpios-b%C3%A1sicos-em-C
 
-02. Lista 2<br>
+02. Laços e condicionais<br>
 https://github.com/mitoedson/Linguagem-C/tree/Lista-02
 
