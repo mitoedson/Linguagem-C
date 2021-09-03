@@ -51,4 +51,7 @@ Este exercício não faz parte da lista, e decidi produzi-lo para juntar as idei
 Escreva um programa para ler n de números do tipo float e imprimir quantos deles estão nos seguintes intervalos: [0 . . . 25], [26 . . . 50], [51 . . . 75] e [76 . . . 100].
 <p>Desenvolvimento:<br>
 Este exercício utiliza alguns conhecimentos dos exercícios anteriores.
+
+<p><b>ex02_11.c</b><br>
+Elabore um programa em C para computar a raiz quadrada de um número positivo. Use a ideia abaixo, baseada no método de aproximações sucessivas de Newton. O programa deverá imprimir o valor da vigésima aproximação.
   
