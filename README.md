@@ -8,3 +8,6 @@ Escreva uma função que computa o fatorial de um número inteiro n passado por 
                                                                                                         
 <p><b>ex03_03.c</b><br>
 Escreva uma função que recebe um número inteiro n passado por parâmetro e devolve o primeiro número da série de Fibonacci que é maior ou igual a n. 
+
+<p><b>ex03_04.c</b><br>
+Escreva uma função que recebe um número inteiro n passado por parâmetro e devolve o maior número primo que é menor ou igual a n.
