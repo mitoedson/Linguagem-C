@@ -6,4 +6,5 @@ Escreva uma função que computa a potência a b para valores a (double) e b (in
 <p><b>ex03_02.c</b> e <b>ex03_02b.c</b><br>    
 Escreva uma função que computa o fatorial de um número inteiro n passado por parâmetro. Obs.: Caso n <= 0 a função deve retornar 1. Use a função anterior e crie um programa que imprima os valores de n! para n = 1, . . . , 20.
                                                                                                         
-                                                                                                        
+<p><b>ex03_03.c</b><br>
+Escreva uma função que recebe um número inteiro n passado por parâmetro e devolve o primeiro número da série de Fibonacci que é maior ou igual a n. Nest exercício eu estabeleci um limite de valoes que o usuário possa digitar algum valor, sem extrapolar o limite da variável que eu determinei.
