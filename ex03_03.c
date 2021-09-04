@@ -12,12 +12,13 @@ Descrição: Escreva uma função que recebe um número inteiro n passado por pa
 #include <stdlib.h>
 
 
-double fibonacci(int n1)
+double fibonacci(double n1)
 {
-    int i;
+    int i,n;
     double menor=0,maior=0;
 
-    for(i=1;i <= 100; i++)
+    n = 1;
+    for(i=1;i <= n; i++)
     {
         if(i == 2)
             maior = 1 + menor;
@@ -32,15 +33,16 @@ double fibonacci(int n1)
 
         if(menor < n1 && n1 < maior)
         {
-            printf("%d estah entre os numeros de Fibonacci %.0f e %.0f",n1,menor,maior);
+            printf("%.0f estah entre os numeros de Fibonacci %.0f e %.0f",n1,menor,maior);
             break;
         }
         else if(menor == n1 && n1 < maior)
         {
-            printf("%d eh um numero de Fibonacci e eh menor que o numero de Fibonacci %.0f",n1,maior);
+            printf("%.0f eh um numero de Fibonacci e eh menor que o numero de Fibonacci %.0f",n1,maior);
             break;
         }
-
+        
+        n++;
     // FIM: SAIDA
     }
     return 0;
@@ -50,7 +52,7 @@ double fibonacci(int n1)
 int main()
 {
     // Início do programa
-    int n;
+    double n;
     char sair;
     do
     {
@@ -61,13 +63,13 @@ int main()
         do
         {
             printf("\n\nDigite um numero inteiro positivo: ");
-            scanf("%d",&n);
+            scanf("%lf",&n);
             if(n < 0)
                 printf("\n\nO numero digitado DEVE SER POSITIVO!!! \n");
-            if(n > 2000000000)
-                printf("\n\nO valor digitado atingiu o LIMITE MAXIMO !!! \n");
+//            if(n > 2000000000)
+//                printf("\n\nO valor digitado atingiu o LIMITE MAXIMO !!! \n");
 
-        } while(n < 0 || n > 2000000000);
+        } while(n < 0);
  
             fibonacci(n);
 //      printf("%d",fibonacci(n));
