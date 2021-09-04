@@ -1,5 +1,5 @@
 /*
-Arquivo: ex03_02.c
+Arquivo: ex03_01b.c
 Modificado em 04/09/2021, por Edson Mito.
 SO: Linux Mint
 Compilador GCC
