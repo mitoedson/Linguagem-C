@@ -8,7 +8,9 @@ Escreva uma função que computa o fatorial de um número inteiro n passado por 
                                                                                                         
 <p><b>ex03_03.c</b><br>
 Escreva uma função que recebe um número inteiro n passado por parâmetro e devolve o primeiro número da série de Fibonacci que é maior ou igual a n. 
-
+<p>
+Desenvolvimento: para este exercício, eu utilizei signed long int para as variáveis, e vez do int (que me deixou bem limitado), e estabeleci um limite máximo de 1836311902, que é até onde o programa suporta. O valor máximo que encontrou como número de Fibonacci foi 1836311903. O cálculo foi bem rápido para quem está programando com um Pentium 4, num ambiente Linux de 32 bits.
+  
 <p><b>ex03_04.c</b><br>
 Escreva uma função que recebe um número inteiro n passado por parâmetro e devolve o maior número primo que é menor ou igual a n. 
 <p>
