@@ -10,4 +10,4 @@ Escreva uma função que computa o fatorial de um número inteiro n passado por 
 Escreva uma função que recebe um número inteiro n passado por parâmetro e devolve o primeiro número da série de Fibonacci que é maior ou igual a n. 
 
 <p><b>ex03_04.c</b><br>
-Escreva uma função que recebe um número inteiro n passado por parâmetro e devolve o maior número primo que é menor ou igual a n.
+Escreva uma função que recebe um número inteiro n passado por parâmetro e devolve o maior número primo que é menor ou igual a n. Obs.: para utilizar o operador %, eu devo fazê-lo entre números inteiros. Para float, long ou double, ele apresenta erros.
