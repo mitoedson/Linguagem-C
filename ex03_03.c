@@ -1,6 +1,6 @@
 /*
 Arquivo: ex03_03.c
-Modificado em 04/09/2021, por Edson Mito.
+Modificado em 05/09/2021, por Edson Mito.
 SO: Linux Mint
 Compilador GCC
 
@@ -12,10 +12,10 @@ Descrição: Escreva uma função que recebe um número inteiro n passado por pa
 #include <stdlib.h>
 
 
-double fibonacci(double n1)
+void fibonacci(signed long int n1)
 {
-    int i,n;
-    double menor=0,maior=0;
+    signed long int i,n;
+    signed long int menor=0,maior=0;
 
     n = 1;
     for(i=1;i <= n; i++)
@@ -33,26 +33,26 @@ double fibonacci(double n1)
 
         if(menor < n1 && n1 < maior)
         {
-            printf("%.0f estah entre os numeros de Fibonacci %.0f e %.0f",n1,menor,maior);
+            printf("\n%.0ld esta' entre os numeros de Fibonacci %.0ld e %.0ld",n1,menor,maior);
             break;
         }
         else if(menor == n1 && n1 < maior)
         {
-            printf("%.0f eh um numero de Fibonacci e eh menor que o numero de Fibonacci %.0f",n1,maior);
+            printf("\n%.0ld e' um numero de Fibonacci e e' menor que o numero de Fibonacci %.0ld",n1,maior);
             break;
         }
         
         n++;
     // FIM: SAIDA
     }
-    return 0;
+
 }
 
 
 int main()
 {
     // Início do programa
-    double n;
+    signed long int n;
     char sair;
     do
     {
@@ -63,16 +63,15 @@ int main()
         do
         {
             printf("\n\nDigite um numero inteiro positivo: ");
-            scanf("%lf",&n);
-            if(n < 0)
+            scanf("%ld",&n);
+            if(n <= 0)
                 printf("\n\nO numero digitado DEVE SER POSITIVO!!! \n");
-//            if(n > 2000000000)
-//                printf("\n\nO valor digitado atingiu o LIMITE MAXIMO !!! \n");
+            if(n > 1836311902)
+                printf("\n\nO valor digitado atingiu o LIMITE MAXIMO !!! \n");
 
-        } while(n < 0);
+        } while(n <= 0 || n > 1836311902);
  
-            fibonacci(n);
-//      printf("%d",fibonacci(n));
+        fibonacci(n);
  
         printf("\n\nDigite 'S' para sair do programa. ");
         scanf(" %c",&sair);
