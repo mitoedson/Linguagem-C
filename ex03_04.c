@@ -12,10 +12,10 @@ Fonte: Listas dos Prof. Emílio Francesquini e Carla Negri Lintzmayer, UFABC.
 #include <ctype.h>
 #include <stdlib.h>
 
-void primo(unsigned long int n)
+void primo(signed long int n)
 {
 
-    unsigned long int i,j,menor,maior;
+    signed long int i,j,menor,maior;
     int encerra_loop,primo;
 
     // INICIO: GERADOR DE NUMEROS PRIMOS
@@ -32,7 +32,6 @@ void primo(unsigned long int n)
                 if(j / i == 1)
                 {
                 // INICIO: ANALISA INTERVALO n
-                    printf(" %ld ",j);
                     if(n < j)
                     {
                         maior = j;
@@ -77,7 +76,7 @@ void primo(unsigned long int n)
 int main()
 {
     // Início do programa
-    unsigned long int n;
+    signed long int n;
     char sair;
     do
     {
