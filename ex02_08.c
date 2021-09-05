@@ -73,10 +73,12 @@ int main()
         }      
         // FIM: GERADOR DE NUMEROS PRIMOS
 
-        if(menor == 0)
+        if(menor == 0 && primo == 0)
             printf("\n\n%d eh menor que o menor numero primo %d.",n,maior);
-        else if(primo == 1)
+        else if(primo == 1 && menor != 0)
             printf("\n\n%d EH PRIMO, e estah entre os numeros primos %d e %d.",n,menor,maior);
+        else if(primo == 1 && menor == 0)
+            printf("\n\n%.0f E' NUMERO PRIMO, e menor que o numero primo %.0f.",n,maior);
         else if(primo == 0)
             printf("\n\n%d estah entre os numeros primos %d e %d.",n,menor,maior);
 
