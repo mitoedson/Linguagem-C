@@ -11,4 +11,5 @@ Escreva uma função que recebe um número inteiro n passado por parâmetro e de
 
 <p><b>ex03_04.c</b><br>
 Escreva uma função que recebe um número inteiro n passado por parâmetro e devolve o maior número primo que é menor ou igual a n. 
-Desenvolvimento: eu utilizei o mesmo princípio do exercício ex02_08.c, mas com unsigned long int (que permite-me ir de 0 até 4294967295). Porém números muito grandes deixam a análise muito lenta (ainda mais que eu estou utilizando um Pentium 4). Eu testei com n = 1000000, e levou um longo tempo para verificar que ele está entre os números primos 999983 e 1000003.
+<p>
+Desenvolvimento: eu utilizei o mesmo princípio do exercício ex02_08.c, mas com signed long int (que permite-me ir de -2147483648 até 2147483647). Porém números muito grandes deixam a análise muito lenta (ainda mais que eu estou utilizando um Pentium 4). Eu testei com n = 1000000, e levou um longo tempo para verificar que ele está entre os números primos 999983 e 1000003.
