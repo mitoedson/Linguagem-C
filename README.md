@@ -40,7 +40,7 @@ Este exercício eu construi um gerador de números primos, que calcula de 2 até
 <p><b>ex02_08.c</b><br>
 Escreva um programa que lê um número n e então imprime o menor número primo que é maior ou igual n e imprime o maior primo que é menor ou igual a n.
 <p>Desenvolvimento:<br>
-Diferente do exercício anterior, eu construi um gerador de números primos, sem limites, mas que encerra quando as condições são cumpridas. Estas condições são os números primos que intervalam um número digitado, e este programa também indica se o número é também primo.
+Diferente do exercício anterior, eu construi um gerador de números primos, sem limites, mas que encerra quando as condições são cumpridas. Estas condições são os números primos que intervalam um número digitado, e este programa também indica se o número é também primo. Por outro lado, como ele é uma variável int, números muito grandes não serão aceitos, travando o programa. Eu posso limitar o número a ser digitado, ou utilizar outra variável. Mas eu não poderei utilizar o operador % sem ser int.
 
 <p><b>ex02_09.c</b><br>
 Faça um programa em C que calcule o mínimo múltiplo comum de dois números m e n.
