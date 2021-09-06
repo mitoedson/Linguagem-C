@@ -50,3 +50,7 @@ Desenvolvimento: este programa foi adaptado do exercício ex02_11.c.
 Escreva uma função chamada teste que recebe um valor inteiro positivo n como parâmetro. Sua função deve retornar um valor inteiro b tal que b^k = n para algum inteiro k, e b seja o menor possível.
 <p>
 Desenvolvimento: eu considerei para o cálculo, k > = 0, já que n é um número inteiro positivo, e se k < 0, teríamos 1/(b^k), que é um número não inteiro. Como b inicia com 1, k inicia com 0. A interação é sequencial, e verifica se há igualdade na cálculo da potência, ou se o valor supera o valor de n. Se houver igualdade, o programa encerra. Se houver um valor maior que n, a interação será feita no b seguinte.
+
+                                                                                                          
+<p><b>ex03_07.c</b><br>                                                                                                       Escreva uma função chamada teste que recebe um valor inteiro n (positivo ou negativo) como parâmetro. Sua função deve imprimir
+todos os valores a e b (inclusive negativos) tais que a × b = n.
