@@ -43,8 +43,10 @@ Desenvolvimento: eu utilizei o mesmo princípio do exercício ex02_08.c, mas com
 
 <p><b>ex03_05.c</b><br>
 Escreva uma função que recebe um número ponto flutuante n passado por parâmetro e devolve a raiz quadrada de n. Use o método de Newton, encontrando o zero da função: f (x) = x^2 − n.
+<p>
+Desenvolvimento: este programa foi adaptado do exercício ex02_11.c.
 
 <p><b>ex03_06.c</b><br>
 Escreva uma função chamada teste que recebe um valor inteiro positivo n como parâmetro. Sua função deve retornar um valor inteiro b tal que b^k = n para algum inteiro k, e b seja o menor possível.
 <p>
-Desenvolvimento:
+Desenvolvimento: eu considerei para o cálculo, k > = 0, já que n é um número inteiro positivo, e se k < 0, teríamos 1/(b^k), que é um número não inteiro. Como b inicia com 1, k inicia com 0. A interação é sequencial, e verifica se há igualdade na cálculo da potência, ou se o valor supera o valor de n. Se houver igualdade, o programa encerra. Se houver um valor maior que n, a interação será feita no b seguinte.
