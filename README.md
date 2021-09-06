@@ -7,6 +7,29 @@ Escreva uma função que computa a potência a b para valores a (double) e b (in
 Escreva uma função que computa o fatorial de um número inteiro n passado por parâmetro. Obs.: Caso n <= 0 a função deve retornar 1. Use a função anterior e crie um programa que imprima os valores de n! para n = 1, . . . , 20.
 <p>
 Desenvolvimento: para este exercício, eu utilizei double para as variáveis, e vez do int, já que fatoriais costumam ficar muito grandes conforme o número escolhido. Eu consegui ir até 170! (o que já é um absurdo) sem dar "inf" no resultado. 170! =7257415615308004024601183389188649749759749301435088140661846389043400758951483763504074342688406564803011639450491273513831964209724198940185278587398284381652277192210462486140514580865463944054306265102820527269572213414150436315805283406248907007997446859463144884340521262595192251609771775240697806848.
+O outro exercício a saída resultou nos seguintes resultados:
+ 1! = 1
+ 2! = 2
+ 3! = 6
+ 4! = 24
+ 5! = 120
+ 6! = 720
+ 7! = 5040
+ 8! = 40320
+ 9! = 362880
+ 10! = 3628800
+ 11! = 39916800
+ 12! = 479001600
+ 13! = 6227020800
+ 14! = 87178291200
+ 15! = 1307674368000
+ 16! = 20922789888000
+ 17! = 355687428096000
+ 18! = 6402373705728000
+ 19! = 121645100408832000
+ 20! = 2432902008176640000
+
+  
                                                                                                         
 <p><b>ex03_03.c</b><br>
 Escreva uma função que recebe um número inteiro n passado por parâmetro e devolve o primeiro número da série de Fibonacci que é maior ou igual a n. 
