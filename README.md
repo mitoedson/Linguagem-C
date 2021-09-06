@@ -40,3 +40,6 @@ Desenvolvimento: para este exercício, eu utilizei signed long int para as vari�
 Escreva uma função que recebe um número inteiro n passado por parâmetro e devolve o maior número primo que é menor ou igual a n. 
 <p>
 Desenvolvimento: eu utilizei o mesmo princípio do exercício ex02_08.c, mas com signed long int (que permite-me ir de -2147483648 até 2147483647, mas creio que não conseguirá atingir o limite sem dar erro). Porém números muito grandes deixam a análise muito lenta (ainda mais que eu estou utilizando um Pentium 4). Eu testei com n = 1000000, e levou um longo tempo para verificar que ele está entre os números primos 999983 e 1000003 (78499º número primo). Fico me perguntando se o programa consegue analisar o número 2 bilhões sem dar erro. Mesmo que dê para analisar, eu ainda estou pensando numa outra forma otimizar essa análise com um outro meio.
+
+<p><b>ex03_05.c</b><br>
+Escreva uma função que recebe um número ponto flutuante n passado por parâmetro e devolve a raiz quadrada de n. Use o método de Newton, encontrando o zero da função: f (x) = x^2 − n.
