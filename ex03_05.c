@@ -48,7 +48,7 @@ int main()
             printf("\nDigite um numero positivo: ");
             scanf("%lg",&n);
             if(n <= 0)
-               printf("\nPrimeiro numero DEVE ser MAIOR que ZERO !!!\n\n");
+               printf("\nNumero DEVE ser MAIOR que ZERO !!!\n\n");
         } while (n <= 0);
 
         raiz(n);
