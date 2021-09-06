@@ -12,9 +12,9 @@ Descrição: Escreva uma função que computa o fatorial de um número inteiro n
 #include <stdlib.h>
 
 
-int fatorial(int x)
+double fatorial(double x)
 {
-    int i,base=1;
+    double i,base=1;
     if(x==0)
         return 1;
     else
@@ -30,7 +30,7 @@ int fatorial(int x)
 int main()
 {
     // Início do programa
-    int n;
+    double n;
     char sair;
     do
     {
@@ -40,18 +40,14 @@ int main()
         do
         {
             printf("\nDigite um valor natural: ");
-            scanf("%d",&n);
+            scanf("%lf",&n);
             if(n<0)
                 printf("\nValor NAO DEVE ser menor que ZERO!!!\n");
             if(n>170)
                 printf("\nValor MAXIMO e' 170!!!\n");
         } while(n<0 || n > 170);
 
-        printf("\n\n %d! = ",n);
-        if(fatorial(n) < 0)
-            printf("ERRO!");
-        else
-            printf("%d",fatorial(n));
+        printf("%.0f! = %.0f",n,fatorial(n));
 
         printf("\n\nDigite 'S' para sair do programa. ");
         scanf(" %c",&sair);
