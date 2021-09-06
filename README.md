@@ -7,7 +7,7 @@ Escreva uma função que computa a potência a b para valores a (double) e b (in
 Escreva uma função que computa o fatorial de um número inteiro n passado por parâmetro. Obs.: Caso n <= 0 a função deve retornar 1. Use a função anterior e crie um programa que imprima os valores de n! para n = 1, . . . , 20.
 <p>
 Desenvolvimento: para este exercício, eu utilizei double para as variáveis, e vez do int, já que fatoriais costumam ficar muito grandes conforme o número escolhido. Eu consegui ir até 170! (o que já é um absurdo) sem dar "inf" no resultado. 170! =7257415615308004024601183389188649749759749301435088140661846389043400758951483763504074342688406564803011639450491273513831964209724198940185278587398284381652277192210462486140514580865463944054306265102820527269572213414150436315805283406248907007997446859463144884340521262595192251609771775240697806848.
-<p>O outro exercício a saída resultou nos seguintes resultados:
+<p>O outro exercício a saída resultou nos seguintes resultados:<br>
  1! = 1<br>
  2! = 2<br>
  3! = 6<br>
