@@ -43,7 +43,9 @@ int main()
             scanf("%d",&n);
             if(n<0)
                 printf("\nValor NAO DEVE ser menor que ZERO!!!\n");
-        } while(n<0);
+            if(n>170)
+                printf("\nValor MAXIMO e' 170!!!\n");
+        } while(n<0 || n > 170);
 
         printf("\n\n %d! = ",n);
         if(fatorial(n) < 0)
