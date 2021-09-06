@@ -23,7 +23,7 @@ void primo(signed long int n)
         maior = 0;
         encerra_loop = 0;
         primo = 0;
-        j = 2;    
+        j = 2;
 
         for(i = 2; i <= j; i++)
         {
