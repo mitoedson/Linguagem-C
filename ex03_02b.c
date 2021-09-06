@@ -1,6 +1,6 @@
 /*
 Arquivo: ex03_02b.c
-Modificado em 04/09/2021, por Edson Mito.
+Modificado em 05/09/2021, por Edson Mito.
 SO: Linux Mint
 Compilador GCC
 
@@ -31,8 +31,7 @@ double fatorial(double x)
 int main()
 {
     // Início do programa
-    double n;
-    int j;
+    double j;
     char sair;
     do
     {
@@ -41,7 +40,7 @@ int main()
 
         for(j = 1; j <= 20; j++)
         {
-            printf("\n %d! = ",j);
+            printf("\n %.0f! = ",j);
             if(fatorial(j) < 0)
                 printf("ERRO!");
             else
