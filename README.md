@@ -114,3 +114,7 @@ if (n < 4)
 return 3 * n;
 return 2 * fun(n-4) + 5;
 }</pre>
+<p>Saída obtida:  
+<pre>9
+23</pre>
+
