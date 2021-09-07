@@ -81,3 +81,21 @@ f(10000000) = 50000005000000<br>
 f(100000000) = 5000000050000000<br>  
 f(1000000000) = 500000000067108992<br>
 f(10000000000) = 50000000000067846144  
+
+<p><b>ex03_11.c</b><br>  
+Execute a função ff abaixo com os argumentos 7 e 0:
+<p><pre>  
+int ff(int n, int ind) {
+  int i;
+  for (i = 0; i < ind; i++)
+    printf(" ");
+    printf("ff(%d, %d)\n", n, ind);
+  if (n == 1)
+    return 1;
+  if (n % 2 == 0)
+    return ff(n/2, ind+1);
+  return ff((n-1)/2, ind+1) + ff((n+1)/2, ind+1);
+}  
+</pre><p>
+Saída obtida:  
+                      
