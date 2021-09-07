@@ -98,4 +98,15 @@ int ff(int n, int ind) {
 }  
 </pre>
 <p>Saída obtida:  
-                      
+<pre>
+ff(7, 0)
+ ff(3, 1)
+  ff(1, 2)
+  ff(2, 2)
+   ff(1, 3)
+ ff(4, 1)
+  ff(2, 2)
+   ff(1, 3)
+
+ 3                       
+</pre>
