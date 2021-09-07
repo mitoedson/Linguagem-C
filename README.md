@@ -59,3 +59,18 @@ Escreva um algoritmo iterativo para avaliar a × b usando apenas adição, onde 
 
 <p><b>ex03_10.c</b><br>
 Determine o que a seguinte definição recursiva para uma função f calcula. A definição da função f (válida para n>=0) é dada abaixo:  f(n)=0, se n=0. Caso contrário f(n)=n+f(n-1).
+
+Desenvolvimento:
+f(0) = 0
+f(1) = 1
+f(2) = 3
+f(3) = 6
+f(4) = 10
+f(5) = 15
+f(6) = 21
+f(7) = 28
+f(8) = 36
+f(9) = 45
+f(10) = 55
+
+  
