@@ -55,4 +55,7 @@ todos os valores a e b (inclusive negativos) tais que a × b = n.
 <p><b>ex03_08.c</b><br>                                                                                                       
 Escreva um algoritmo iterativo para avaliar a × b usando apenas adição, onde a e b são inteiros não negativos.
   
-<p><b>ex03_09.c</b><br>                                                                                                       Escreva um algoritmo recursivo para avaliar a × b usando apenas adição, onde a e b são inteiros não negativos.  
+<p><b>ex03_09.c</b><br>                                                                                                       Escreva um algoritmo recursivo para avaliar a × b usando apenas adição, onde a e b são inteiros não negativos. 
+
+<p><b>ex03_10.c</b><br>
+Determine o que a seguinte definição recursiva para uma função f calcula. A definição da função f (válida para n>=0) é dada abaixo:  f(n)=0, se n=0. Caso contrário f(n)=n+f(n-1).
