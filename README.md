@@ -84,8 +84,7 @@ f(10000000000) = 50000000000067846144
 
 <p><b>ex03_11.c</b><br>  
 Execute a função ff abaixo com os argumentos 7 e 0:
-<pre>  
-int ff(int n, int ind) {
+<pre>int ff(int n, int ind) {
   int i;
   for (i = 0; i < ind; i++)
     printf(" ");
@@ -95,11 +94,9 @@ int ff(int n, int ind) {
   if (n % 2 == 0)
     return ff(n/2, ind+1);
   return ff((n-1)/2, ind+1) + ff((n+1)/2, ind+1);
-}  
-</pre>
+}</pre>
 <p>Saída obtida:  
-<pre>
-ff(7, 0)
+<pre>ff(7, 0)
  ff(3, 1)
   ff(1, 2)
   ff(2, 2)
@@ -108,5 +105,12 @@ ff(7, 0)
   ff(2, 2)
    ff(1, 3)
 
- 3                       
-</pre>
+ 3</pre>
+
+<p><b>ex03_12.c</b><br>  
+Quais os valores de fun(3) e fun(7)?
+<pre>int fun(int n) {
+if (n < 4)
+return 3 * n;
+return 2 * fun(n-4) + 5;
+}</pre>
