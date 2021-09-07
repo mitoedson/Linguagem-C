@@ -28,8 +28,6 @@ Desenvolvimento: para este exercício, eu utilizei double para as variáveis, e 
  18! = 6402373705728000<br>
  19! = 121645100408832000<br>
  20! = 2432902008176640000
-
-  
                                                                                                         
 <p><b>ex03_03.c</b><br>
 Escreva uma função que recebe um número inteiro n passado por parâmetro e devolve o primeiro número da série de Fibonacci que é maior ou igual a n. 
@@ -50,7 +48,11 @@ Desenvolvimento: este programa foi adaptado do exercício ex02_11.c.
 Escreva uma função chamada teste que recebe um valor inteiro positivo n como parâmetro. Sua função deve retornar um valor inteiro b tal que b^k = n para algum inteiro k, e b seja o menor possível.
 <p>
 Desenvolvimento: eu considerei para o cálculo, k > = 0, já que n é um número inteiro positivo, e se k < 0, teríamos 1/(b^k), que é um número não inteiro. Como b inicia com 1, k inicia com 0. A interação é sequencial, e verifica se há igualdade na cálculo da potência, ou se o valor supera o valor de n. Se houver igualdade, o programa encerra. Se houver um valor maior que n, a interação será feita no b seguinte.
-
                                                                                                           
 <p><b>ex03_07.c</b><br>                                                                                                       Escreva uma função chamada teste que recebe um valor inteiro n (positivo ou negativo) como parâmetro. Sua função deve imprimir
 todos os valores a e b (inclusive negativos) tais que a × b = n.
+
+<p><b>ex03_08.c</b><br>                                                                                                       
+Escreva um algoritmo iterativo para avaliar a × b usando apenas adição, onde a e b são inteiros não negativos.
+  
+<p><b>ex03_09.c</b><br>                                                                                                       Escreva um algoritmo recursivo para avaliar a × b usando apenas adição, onde a e b são inteiros não negativos.  
