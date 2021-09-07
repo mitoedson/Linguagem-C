@@ -84,7 +84,7 @@ f(10000000000) = 50000000000067846144
 
 <p><b>ex03_11.c</b><br>  
 Execute a função ff abaixo com os argumentos 7 e 0:
-<p><pre>  
+<pre>  
 int ff(int n, int ind) {
   int i;
   for (i = 0; i < ind; i++)
@@ -96,6 +96,6 @@ int ff(int n, int ind) {
     return ff(n/2, ind+1);
   return ff((n-1)/2, ind+1) + ff((n+1)/2, ind+1);
 }  
-</pre><p>
-Saída obtida:  
+</pre>
+<p>Saída obtida:  
                       
