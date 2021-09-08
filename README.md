@@ -118,3 +118,24 @@ return 2 * fun(n-4) + 5;
 <pre>9
 23</pre>
 
+<p><b>ex03_13.c</b><br>  
+Escreva uma função recursiva que imprima uma régua inglesa de ordem n no intervalo [0..2n]. Nessa régua, o traço no ponto médio deve ter comprimento n, os traços nos pontos médios dos subintervalos superior e inferior devem ter comprimento n − 1, e assim por diante. A figura abaixo mostra uma régua inglesa de ordem 4.
+<pre>
+.
+. -
+. --
+. -
+. ---
+. -
+. --
+. -
+. ----
+. -
+. --
+. -
+. ---
+. -
+. --
+. -
+.
+</pre>
